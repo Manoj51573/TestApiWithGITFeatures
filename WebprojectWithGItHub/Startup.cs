@@ -54,9 +54,6 @@ namespace WebprojectWithGItHub
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
-        public void ConfigureServices1(IServiceCollection services)
-        {
-            services.AddControllersWithViews();
-        }
+       
     }
 }
