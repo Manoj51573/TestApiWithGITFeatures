@@ -1,0 +1,4 @@
+# The compliance team "@synergy-au/compliance" will be the owner for every forms which need compliance approvals.
+
+# Home controller
+/Views/Home/Index.cshtml                                     @synergy-au/compliance
