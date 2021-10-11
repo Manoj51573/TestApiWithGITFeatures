@@ -31,7 +31,7 @@ steps:
   inputs:
     gulpFile: 'gulpfile.js'
     targets: 
-    gulpjs: './gulp.js'
+    gulpjs: 'gulp.js'
     enableCodeCoverage: false
 
 - task: VSTest@2
