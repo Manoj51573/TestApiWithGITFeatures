@@ -1,0 +1,32 @@
+{
+  "name": "webprojectwithgithub",
+  "version": "1.0.0",
+  "description": "This project is just for reading purpose.",
+  "scripts": {
+    "start": "gulp",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manoj51573/TestApiWithGITFeatures.git"
+  },
+  "author": "Manoj Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manoj51573/TestApiWithGITFeatures/issues"
+  },
+  "homepage": "https://github.com/Manoj51573/TestApiWithGITFeatures#readme",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.3.9",
+    "postcss-discard-comments": "^5.0.1",
+    "postcss-discard-duplicates": "^5.0.1",
+    "postcss-discard-empty": "^5.0.1",
+    "postcss-merge-longhand": "^5.0.2"
+  }
+}
