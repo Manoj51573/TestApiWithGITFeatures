@@ -29,9 +29,9 @@ steps:
     configuration: '$(buildConfiguration)'
 - task: gulp@0
   inputs:
-    gulpFile: 'gulpfile.js'
-    targets: 
-    gulpjs: 'WebprojectWithGItHub/gulpfile.js'
+    gulpFile: TestApiWithGITFeatures/gulpfile.js
+    workingDirectory: TestApiWithGITFeatures
+    targets: 'default'
     enableCodeCoverage: false
 
 - task: VSTest@2
