@@ -1,7 +1,25 @@
-﻿@{
+﻿@using WebprojectWithGItHub.Models.ServiceInterface;
+@{
     ViewData["Title"] = "Home Page";
 }
+@{
+    <p><b>Product List</b></p>
 
+    <table>
+        <tr>
+           
+            <th>Name</th>
+        </tr>
+        @foreach (Product item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+              
+            </tr>
+        }
+    </table>
+
+}
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
